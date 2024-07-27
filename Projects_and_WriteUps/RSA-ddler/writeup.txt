@@ -1,0 +1,6 @@
+First I have written a bash-script to unzip, the script used is script.sh
+then I have provided the brainfuck commands to a brainfuck interpreter and then I used a base32 decoder until I got a text with characters not in base32 table, then I decrypted using vigenere cipher with the key "KEY"
+for the rsa, it is trivial when e,d is 1 
+when e=3, I have cube rooted the output message and then found all are perfect integers
+for the last two n's, i have factorised them using sympy and with the given constraints i found their parameters and then successfully decrypted the rsa, but riddler_xor decryption is left
+since i know the first three characters of the flag(YoS), I verified them and started chaining them to find the remaining flag
